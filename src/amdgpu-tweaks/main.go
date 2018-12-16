@@ -61,7 +61,7 @@ func check(e error) {
 }
 
 func main() {
-	confData, err := ioutil.ReadFile("/etc/amdgpu-tweak/conf.toml")
+	confData, err := ioutil.ReadFile("/etc/amdgpu-tweaks/conf.toml")
 	check(err)
 
 	var config Config
