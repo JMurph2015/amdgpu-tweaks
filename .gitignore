@@ -1,0 +1,10 @@
+/.vscode/
+**/.vscode/
+/bin/
+**/bin/
+/pkg/
+**/pkg/
+/src/github.com/
+**/src/github.com/
+/src/golang.org/
+**/src/golang.org/

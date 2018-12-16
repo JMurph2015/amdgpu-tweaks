@@ -1,0 +1,16 @@
+PWMFile = "/sys/class/drm/card0/device/hwmon/hwmon1/pwm1"
+FanModeFile = "/sys/class/drm/card0/device/hwmon/hwmon1/pwm1_enable"
+TempFile = "/sys/class/drm/card0/device/hwmon/hwmon1/temp1_input"
+PollFrequency = 1500
+
+[[Setpoint]]
+Temp = 30.0
+Fan = 96
+
+[[Setpoint]]
+Temp = 47.0
+Fan = 140
+
+[[Setpoint]]
+Temp = 65.0
+Fan = 160
