@@ -1,0 +1,10 @@
+[Unit]
+Description=amdgpu-tweaks
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/amdgpu-tweaks
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
